@@ -1,0 +1,7 @@
+/* Estilos específicos da página Sobre */
+@media (max-width: 768px) {
+  div[style*="grid-template-columns: repeat(4"] { grid-template-columns: repeat(2, 1fr) !important; }
+}
+@media (max-width: 480px) {
+  div[style*="grid-template-columns: repeat(4"] { grid-template-columns: 1fr 1fr !important; }
+}

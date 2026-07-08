@@ -1,0 +1,6 @@
+/* Estilos específicos da página Contacto */
+@media (max-width: 768px) {
+  div[style*="grid-template-columns: 1.1fr"] { display: block !important; }
+  div[style*="grid-template-columns: 1.1fr"] > div:first-child { margin-bottom: 40px; }
+  div[style*="grid-template-columns: 1fr 1fr"] { display: block !important; }
+}
